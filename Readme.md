@@ -1,1 +1,1 @@
-Used for testing GitHubReleaseManager.  Really nothing to see here.
+Used for testing GitReleaseManager.  Really nothing to see here.
