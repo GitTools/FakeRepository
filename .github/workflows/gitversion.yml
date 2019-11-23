@@ -22,3 +22,6 @@ jobs:
       uses: gittools/use-gitversion/execute@v0.2
     - run: |
         echo "FullSemVer: ${{ steps.gitversion.outputs.fullSemVer }}"
+        echo "MajorMinorPatch: ${{ steps.gitversion.outputs.majorMinorPatch }}"
+        echo "ShortSha: ${{ steps.gitversion.outputs.shortSha }}"
+        echo "InformationalVersion: ${{ steps.gitversion.outputs.informationalVersion }}"
